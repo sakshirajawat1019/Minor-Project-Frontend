@@ -1,0 +1,107 @@
+    body {
+      background: #fff;
+      color: #514B64;
+      min-height: 100vh;
+    }
+    .logo{
+        height: 50%;
+        width: 50%;     
+    }
+    .navv-padding{
+      padding-left: 2.2rem;
+    }
+    /* foooter */
+    .h-footer{
+      color: #ffb703;
+    }
+    .foot{
+      background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+      color: #514B64;
+    }
+    .logo-footer{
+        height: 30%;
+        width: 30%;    
+    }
+    /* foooter end */
+
+
+    .navv {
+    background-color: #023047;
+    color: #ffb703;
+    }
+
+     @media (max-width: 1028px){
+ 
+        .logo{
+            height: 50%;
+            width: 50%;    
+        }
+        .navv-padding{
+          padding-left: .2rem;
+        }
+        .navlist{
+            padding-left: 1.2rem; 
+            padding-right: 1.2rem;
+            margin-left: 19.0rem;
+            margin-right: 0rem;
+        } 
+        .navv{
+          padding-left: 1.2rem; 
+          padding-right: 1.2rem;
+          margin-left: 0rem;
+          margin-right: 0rem;
+        }
+      }
+        /* only screen and */
+         @media (max-width: 768px) {
+
+            .logo{
+                height: 50%;
+                width: 50%;    
+            }
+            .navv-padding{
+              padding-left: 0rem;
+            }
+             .navlist{
+                padding-left: 1.2rem; 
+                padding-right: 1.2rem;
+                margin-left: 8.0rem;
+                margin-right: 0rem; 
+            }
+          }  
+                /* For mobile phones: */
+           @media only screen and (max-width: 600px) {       
+                .logo{
+                    height: 50%;
+                    width: 50%;    
+                }
+                .navv-padding{
+                  padding-left: 0rem;
+                }
+                 .navlist{
+                    padding-left: 1.2rem; 
+                    padding-right: 1.2rem;
+                    margin-left: 2.2rem;
+                    margin-right: 0rem;  
+                }  
+          }
+
+          @media only screen and (min-width: 992px) {    
+        .logo{
+            height: 50%;
+            width: 50%;    
+        }
+        .navv-padding{
+          padding-left: .2rem;
+        }
+         .navlist{
+            padding-left: 1.2rem; 
+            padding-right: 1.2rem;
+            margin-left: 32.9
+            rem;
+            margin-right: 0rem;  
+        }
+      }
+
+
+
