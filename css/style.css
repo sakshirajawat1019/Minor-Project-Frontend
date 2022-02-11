@@ -1,7 +1,8 @@
     body {
+      	text-align: center;
       background: #fff;
       color: #514B64;
-      min-height: 100vh;
+      /* min-height: 100vh; */
     }
     .logo{
         height: 50%;
@@ -19,16 +20,88 @@
       color: #514B64;
     }
     .logo-footer{
-        height: 30%;
-        width: 30%;    
+        height: 40%;
+        width: 40%;    
     }
+    .logo-footer2{
+      height: 13%;
+      width: 13%;    
+  }
     /* foooter end */
 
+
+    /* index page */
+    .logo_b{
+      height: 60%;
+      width: 60%;     
+  }
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    height: 100%;
+    width: 98%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+    opacity: 1;
+}
+.banner-img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.h2-header{
+  color: white;
+  text-align: center;
+}
+.h3-text{
+  color: white;
+}
+
+.nav2{
+  padding-left: 1.2rem; 
+  padding-right: 1.2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  background-color: #023047;
+  color: #ffb703;
+  text-align: center;
+}
+.text{
+ padding-bottom: 3.2rem ; 
+}
+.btn-default{
+  background-color: #023047;
+  color:#FFF;
+  border-color: #023047;
+  border-width: 3%;
+}
+.btn-default:hover {
+  background-color: #2F3E48;
+  color:#FFF;
+  border-color: #023047;
+}
+   /* index page end */
 
     .navv {
     background-color: #023047;
     color: #ffb703;
     }
+
+    /* login button */
+   .login-form-div{
+     height: 50%;
+     width: 50%; 
+     background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+   }
+
 
      @media (max-width: 1028px){
  
