@@ -8,6 +8,7 @@
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu">
+    
 
     <!-- Css Style  Sheets -->
     <link rel="stylesheet" href="css/style.css">
@@ -26,21 +27,24 @@
 
   <!-- start section-->  
   <section id="title">
-    <nav class="navv navbar navbar-light justify-content-between ">
+    <nav class="navv navbar fixed-top navbar-light justify-content-between row row-cols-1 row-cols-md-8 g-6">
       <div class="container-fluid">
+        <div class="col">
         <a href="#" class="navbar-brand navv-padding-b"><img src="img/CDGI_Logo2.png" alt="CDGI_Logo" class="logo_b"></a>
-        
+        </div>
         <ul class="navlist nav justify-content-center">
+          <div class="col">
                 <li class="nav-item ">
                     <button type="button" class="btn btn-warning navv-padding-b" onclick="document.getElementById('id01').style.display='block'">Login</button>
-                </a>
+                </div>
               </li>
             </ul>
            
         </div>
       </nav>
+    </section>      
   <!-- end section-->    
-    </section>
+
 
 
 <section>   
@@ -58,7 +62,7 @@
         <h2 class="h2-header">About</h2>  
         </div>
       </nav>
-      <div class="text"><h5> Generated text
+      <div class="text"><h5>
         Lorem ipsum dolor sit amet. In accusamus omnis non voluptas veritatis et sequi molestiae hic corporis sint ut architecto dignissimos sed corrupti labore sed incidunt molestiae! Et galisum molestias et temporibus dignissimos et internos omnis aut omnis exercitationem sed libero sequi!</h5></div>
   <!-- end section-->    
     </section>
@@ -70,7 +74,7 @@
             <h2 class="h2-header">Benefits</h2>  
             </div>
           </nav>
-          <div class="text"><h5> Generated text
+          <div class="text"><h5>
             Lorem ipsum dolor sit amet. In accusamus omnis non voluptas veritatis et sequi molestiae hic corporis sint ut architecto dignissimos sed corrupti labore sed incidunt molestiae! Et galisum molestias et temporibus dignissimos et internos omnis aut omnis exercitationem sed libero sequi!</h5></div>
       <!-- end section-->    
         </section>
@@ -80,7 +84,7 @@
   <section class="footer">
     <!-- Footer -->
     <footer class="text-center text-white foot">
-     <h4 class="h-footer">Lorem ipsum</h4>
+     <marquee behavior="" direction=""><h4 class="h-footer">Lorem ipsum</h4></marquee>
 
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: #023047">
@@ -100,7 +104,6 @@
           </div>
         </div>
         <!--Grid row-->
-
         © 2022 Learn Academy
         <a class="text-white" href=""></a>
       </div>
@@ -108,23 +111,20 @@
     </footer>
     <!-- Footer -->
   </section>
-
-  <img src="img/banner.png" alt="cdgi-banner" class="banner-img">
   
 
 
   <!-- login page -->
   <div id="id01" class="modal">
-            <section class="h-100 gradient-form" style="background-color: #eee;">
+            <section class="h-100 gradient-form">
                 <div class="container py-5 h-100">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                   <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-xl-10">
                       <div class="card rounded-3 text-black">
                         <div class="row g-0">
                           <div class="col-lg-12">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                             <div class="card-body p-md-5 mx-md-4">
-              
                               <div class="text-center">
                                 <a href="#"><img src="img/cdgi-logo.png" alt="cdgi-logo"></a>
                                 <h4 class="mt-1 mb-5 pb-1">Login</h4>
@@ -132,7 +132,6 @@
               
                               <form>
                                 <p>Please login to your account</p>
-              
                                 <div class="form-outline mb-2">
                                   <input type="email" id="form2Example11" class="form-control" placeholder="Phone number or email address"/>
                                   <label class="form-label" for="form2Example11">Username</label>
@@ -150,13 +149,18 @@
 
               
                                 <div class="text-center pt-1 mb-5 pb-1">
-                                  <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log in</button>
+                                  <a href="Home.html" type="button" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" target="_blank">Log in</a>
+                                  <div class="row row-cols-2 row-cols-md-8 g-6">
+                                  <div class="col">
                                   <a class="text-muted" href="#!">Forgot password?</a>
-
-                                  <div class="container" style="background-color:#f1f1f1">
-                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn btn-danger">Cancel</button>
-
                                 </div>
+                                <div class="col">
+                                  <div class="container" style="background-color:#f1f1f1">
+                                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="btn">Cancel</button>
+                                  </div>
+                                </div>
+                              </div>
+                                <!-- </div> -->
                               </form>
               
                             </div>
