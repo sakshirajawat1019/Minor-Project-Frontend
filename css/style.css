@@ -1,185 +1,272 @@
-    body {
-      	text-align: center;
-      background: #fff;
-      color: #514B64;
-      /* min-height: 100vh; */
-      font-family: 'Josefin Sans', sans-serif;
-    }
-    .logo{
-        height: 50%;
-        width: 50%;     
-    }
-    .navv-padding{
-      padding-left: 2.2rem;
-    }
-    /* foooter */
-    .h-footer{
-      color: #ffb703;
-    }
-    .foot{
-      background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
-      color: #514B64;
-    }
-    .logo-footer{
-        height: 40%;
-        width: 40%;    
-    }
-    .logo-footer2{
-      height: 13%;
-      width: 13%;    
-  }
-    /* foooter end */
-
-
-    /* index page */
-    .logo_b{
-      height: 60%;
-      width: 60%;     
-  }
-  .overlay {
-    position: absolute; 
-    bottom: 0; 
-    color: #f1f1f1; 
-    height: 89%;
-    width: 100%;
-    /* transition: .5s ease; */
-    color: white;
-    font-size: 20px;
-    padding: 80px;
-    text-align: center;
+body {
+  text-align: center;
+  background: #fff;
+  color: #514B64;
+  /* min-height: 100vh; */
+  font-family: 'Josefin Sans', sans-serif;
 }
- .banner-img{
-  display: block;
+
+.logo {
+  height: 50%;
+  width: 50%;
+}
+
+.navv-padding {
+  padding-left: 2.2rem;
+}
+
+/* foooter */
+.h-footer {
+  color: #ffb703;
+}
+
+.foot {
+  background-color: #f1f1f1;
+  color: #514B64;
+}
+
+.logo-footer {
+  height: 40%;
+  width: 40%;
+}
+
+.logo-footer2 {
+  height: 13%;
+  width: 13%;
+}
+
+/* foooter end */
+
+
+/* index page */
+.logo_b {
+  height: 60%;
+  width: 60%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  height: 89%;
   width: 100%;
-  height: auto; 
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(20%) blur(2px);
- /* filter: drop-shadow(16px 16px 10px black) */
-}
-
-.h2-header{
+  /* transition: .5s ease; */
   color: white;
+  font-size: 20px;
+  padding: 80px;
   text-align: center;
 }
-.h3-text{
+
+.banner-img {
+  padding-top: 60px;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(20%) blur(2px);
+  /* filter: drop-shadow(16px 16px 10px black) */
+}
+
+.modal-container {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+}
+
+.h2-header {
   color: white;
 }
 
-.nav2{
-  padding-left: 1.2rem; 
+.h3-text {
+  color: white;
+}
+
+.nav2 {
+  padding-left: 1.2rem;
   padding-right: 1.2rem;
   margin-left: 0rem;
   margin-right: 0rem;
   background-color: #023047;
   color: #ffb703;
 }
-.text{
- padding-bottom: 3.2rem ; 
-}
-.btn-default{
+
+.btn-default {
   background-color: #023047;
-  color:#FFF;
+  color: #FFF;
   border-color: #023047;
   border-width: 3%;
 }
+
 .btn-default:hover {
   background-color: #2F3E48;
-  color:#FFF;
+  color: #FFF;
   border-color: #023047;
 }
-   /* index page end */
 
-    .navv {
-    background-color: #023047;
-    color: #ffb703;
-    }
+/* index page end */
 
-    /* login button */
-   .login-form-div{
-     height: 50%;
-     width: 50%; 
-     background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
-   }
-   /* home page */
-   .heading-card{
-    text-align: center;
-     padding-bottom: 30px;
-     padding-top:70px ;
-   }
-   .card-img-size{
-    height: 170px;
-    width: 100px; 
-   }
+.navv {
+  background-color: #023047;
+  color: #ffb703;
+}
 
-     @media (max-width: 1028px){
- 
-        .logo{
-            height: 50%;
-            width: 50%;    
-        }
-        .navv-padding{
-          padding-left: .2rem;
-        }
-        .navlist{
-            padding-left: 1.2rem; 
-            padding-right: 1.2rem;
-            margin-left: 19.0rem;
-            margin-right: 0rem;
-        } 
-        /* .navv{
-          padding-left: 1.2rem; 
-          padding-right: 1.2rem;
-          margin-left: 0rem;
-          margin-right: 0rem;
-        } */
-      }
-        /* only screen and */
-         @media (max-width: 768px) {
+/* login button */
+.login-form-div {
+  height: 50%;
+  width: 50%;
+  background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+}
 
-            .logo{
-                height: 50%;
-                width: 50%;    
-            }
-            .navv-padding{
-              padding-left: 0rem;
-            }
-             .navlist{
-                padding-left: 1.2rem; 
-                padding-right: 1.2rem;
-                margin-left: 8.0rem;
-                margin-right: 0rem; 
-            }
-          }  
-                /* For mobile phones: */
-           @media only screen and (max-width: 600px) {       
-                .logo{
-                    height: 50%;
-                    width: 50%;    
-                }
-                .navv-padding{
-                  padding-left: 0rem;
-                }
-                 .navlist{
-                    padding-left: 1.2rem; 
-                    padding-right: 1.2rem;
-                    margin-left: 2.2rem;
-                    margin-right: 0rem;  
-                }  
-          }
+/* home page */
+.heading-card {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
 
-          @media only screen and (min-width: 992px) {    
-        .logo{
-            height: 50%;
-            width: 50%;    
-        }
-        .navv-padding{
-          padding-left: .2rem;
-        }
-         .navlist{
-            padding-left: 1.2rem; 
-            padding-right: 1.2rem;
-            margin-left: 32.9
-            rem;
-            margin-right: 0rem;  
-        }
-      }
+.card-img-size {
+  height: 170px;
+  width: 100px;
+}
+
+/* :root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  */
+
+   .card {
+    /* background: linear-gradient(70deg, #e6e6e6, #f7f7f7); */
+    border: 1px solid #222;
+    color: #222;
+     /* rgba(250, 250, 250, 0.8); */
+/* margin-bottom: 2rem;*/
+  } 
+
+
+
+
+
+
+/* only screen and */
+@media (max-width: 768px) {
+
+  .cdgi-logo-img {
+    height: 15%;
+    width: 15%;
+  }
+
+  .overlay {
+    font-size: 10px;
+    height: 89%;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .banner-img {
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(10%) blur(1px);
+  }
+
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .cdgi-logo-img {
+    height: 10%;
+    width: 10%;
+  }
+
+  .overlay {
+    font-size: 10px;
+    padding: 10px;
+    height: 89%;
+  width: 100%;
+  }
+
+  .banner-img {
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(10%) blur(1px);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cdgi-logo-img {
+    height: 20%;
+    width: 20%;
+  }
+
+  .overlay {
+    font-size: 10px;
+    padding: 30px;
+    height: 89%;
+  width: 100%;
+  }
+
+  .banner-img {
+    padding-top: 60px;
+    filter: grayscale(10%) blur(1px);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .cdgi-logo-img {
+    height: 35%;
+    width: 20%;
+  }
+
+  .overlay {
+    font-size: 20px;
+    padding: 50px;
+  }
+
+  .banner-img {
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(10%) blur(2px);
+  }
+}
+
+
+
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.satrtiing-padding{
+  padding-top: 80px;
+}
+.row.content {
+  height: auto;
+  /* background-color: #f1f1f1; */
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: 100%;
+    padding: 15px;
+  }
+
+  .row.content {
+    height: auto;
+  }
+}
